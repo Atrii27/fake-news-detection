@@ -1,0 +1,12 @@
+/fake-news-detection
+├── /data
+│   ├── fake.csv
+│   └── real.csv
+├── /templates
+│   ├── index.html
+├── /static
+│   ├── style.css
+├── app.py
+├── model.py
+├── requirements.txt
+└── Dockerfile
