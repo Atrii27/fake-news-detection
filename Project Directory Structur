@@ -1,12 +1,20 @@
 /fake-news-detection
 ├── /data
-│   ├── fake.csv
-│   └── real.csv
-├── /templates
-│   ├── index.html
-├── /static
-│   ├── style.css
-├── app.py
-├── model.py
+│   ├── fake_news.csv
+│   ├── liar_dataset.csv
+├── /models
+│   ├── logistic_model.pkl
+│   ├── lstm_model.h5
+├── /app
+│   ├── /static
+│   ├── /templates
+│   │   └── index.html
+│   └── app.py
+├── /notebooks
+│   └── EDA.ipynb
+├── /scripts
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   └── model_training.py
 ├── requirements.txt
-└── Dockerfile
+└── README.md
